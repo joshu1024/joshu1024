@@ -1,4 +1,4 @@
-👋 Hi, I'm J K
+👋 Hi, I'm Joshua Kipamet
 Full-stack developer specializing in MERN + TypeScript + Next.js with a focus on real-world applications. I build scalable web apps, AI tools, e-commerce systems, and analytics dashboards, with projects deployed and production-ready.
 ________________________________________
 🔭 What I’m Working On
