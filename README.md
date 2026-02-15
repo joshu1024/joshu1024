@@ -30,9 +30,9 @@ ________________________________________
 •	CI/CD pipelines for automated deployments
 ________________________________________
 📫 How to Reach Me
-•	LinkedIn: linkedin.com/in/your-linkedin
-•	GitHub: github.com/your-username
-•	Email: your.email@example.com
+•	LinkedIn: https://www.linkedin.com/in/joshua-kipamet-148698140/?isSelfProfile=true
+•	GitHub: https://github.com/joshu1024
+•	Email: joshuakipamet@gmail.com
 ________________________________________
 ⚡ Fun Fact
 I love turning ideas into deployed apps — from AI dashboards to full-stack e-commerce systems — and learning every tool that makes code cleaner, faster, and scalable.
