@@ -10,7 +10,7 @@ ________________________________________
 💻 Tech Stack
 Frontend: React, Next.js, Tailwind CSS, TypeScript
 Backend: Node.js, Express.js, MongoDB, PostgreSQL, Prisma
-Other: REST APIs, GraphQL, JWT Authentication, CI/CD, Deployment (Vercel / Heroku / Railway)
+Other: REST APIs, GraphQL, JWT Authentication, CI/CD, Deployment (Vercel / Render / Railway)
 ________________________________________
 🚀 Projects
 Project	Description	Tech Stack	Live Demo
