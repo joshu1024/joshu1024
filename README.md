@@ -1,5 +1,6 @@
 👋 Hi, I'm Joshua Kipamet.
-Full-stack developer specializing in MERN + TypeScript + Next.js with a focus on real-world applications. I build scalable web apps, AI tools, e-commerce systems, and analytics dashboards, with projects deployed and production-ready.
+Full-stack developer building scalable SaaS, AI-powered tools, and production-grade e-commerce platforms using MERN, TypeScript, and Next.js.
+Focused on clean architecture, performance optimization, and real-world deployment.
 ________________________________________
 🔭 What I’m Working On
 •	Converting MERN projects → TypeScript + Next.js for cleaner code and better scalability
