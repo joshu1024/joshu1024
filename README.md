@@ -35,7 +35,7 @@ Full-stack analytics dashboard for tracking application metrics
 and visualizing real-time data using interactive charts.
 
 Tech: React, Node.js, TypeScript, MongoDB, Chart.js  
-Live Demo: [dashboard-mern-tau.vercel.app]
+Live Demo: dashboard-mern-tau.vercel.app
 
 ---
 
@@ -46,7 +46,7 @@ admin product management, cart & checkout flow, and payment integration.
 Recently migrated the database from MongoDB → PostgreSQL using Prisma.
 
 Tech: React, Node.js, PostgreSQL, Prisma, Stripe  
-Live Demo: [https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/]
+Live Demo: https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
 
 ---
 
