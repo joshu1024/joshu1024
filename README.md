@@ -1,27 +1,66 @@
 👋 Hi, I'm Joshua Kipamet.
+
 Full-stack developer building scalable SaaS, AI-powered tools, and production-grade e-commerce platforms using MERN, TypeScript, and Next.js.
-Focused on clean architecture, performance optimization, and real-world deployment.
+Focused on clean architecture, performance optimization, and real-world deployment. 
+Building and deploying full-stack applications with modern JavaScript ecosystems.
+Open to remote full-stack developer opportunities.
 ________________________________________
-🔭 What I’m Working On
-•	Converting MERN projects → TypeScript + Next.js for cleaner code and better scalability
-•	Upgrading e-commerce systems & analytics dashboards to PostgreSQL + Prisma
-•	Exploring GraphQL for modern APIs
-•	Enhancing AI-powered tools and dashboards with real-time analytics
+🔭  What I’m Working On
+• Migrated MERN applications from MongoDB → PostgreSQL using Prisma ORM
+• Converting projects to TypeScript + Next.js for stronger type safety
+• Exploring GraphQL APIs for scalable analytics systems
+• Enhancing AI dashboards with real-time analytics
 ________________________________________
 💻 Tech Stack
-Frontend: React, Next.js, Tailwind CSS, TypeScript
-Backend: Node.js, Express.js, MongoDB, PostgreSQL, Prisma
-Other: REST APIs, GraphQL, JWT Authentication, CI/CD, Deployment (Vercel / Render / Railway)
+
+Frontend:
+React, Next.js, Tailwind CSS, TypeScript
+
+Backend:
+Node.js, Express.js
+
+Databases & ORM:
+PostgreSQL, MongoDB, Prisma, Data Modeling, Schema Design
+
+APIs:
+REST APIs, GraphQL
+
+DevOps & Deployment:
+Vercel, Render, Railway, CI/CD
 ________________________________________
 🚀 Projects
-Project	Description	Tech Stack	Live Demo
-AI Analytics Dashboard	Dashboard with AI insights & real-time charts	React, Node.js, MongoDB, Chart.js	Live
 
-E-commerce Platform	Full-stack shopping system with cart & payment	React, Node.js, PostgreSQL, Stripe	Live
+Analytics Dashboard  
+Full-stack analytics dashboard for tracking application metrics
+and visualizing real-time data using interactive charts.
 
-AI Tool Collection	Collection of AI utilities & generators	Next.js, TypeScript, Node.js	Live
+Tech: React, Node.js, TypeScript, MongoDB, Chart.js  
+Live Demo: [dashboard-mern-tau.vercel.app]
 
-Analytics API	REST API for tracking & reporting	Node.js, Express, MongoDB	Repo
+---
+
+E-commerce Platform  
+Production-ready full-stack e-commerce platform with authentication,
+admin product management, cart & checkout flow, and payment integration.
+
+Recently migrated the database from MongoDB → PostgreSQL using Prisma.
+
+Tech: React, Node.js, PostgreSQL, Prisma, Stripe  
+Live Demo: [https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/]
+
+---
+
+AI Tool Collection  
+Collection of AI-powered utilities built using external AI APIs.
+
+Tools:
+• AI Text-to-Image Generator  
+Live Demo: https://ai-text-to-image-six.vercel.app
+
+• Background Remover App  
+Live Demo: https://bg-remover-xi-brown.vercel.app
+
+Tech: React, Node.js, ClipDrop
 
 ________________________________________
 🌱 Learning
