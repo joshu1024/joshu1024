@@ -35,7 +35,7 @@ Full-stack analytics dashboard for tracking application metrics
 and visualizing real-time data using interactive charts.
 
 Tech: React, Node.js, TypeScript, MongoDB, Chart.js  
-Live Demo: dashboard-mern-tau.vercel.app
+Live Demo: https://dashboard-mern-tau.vercel.app/
 
 ---
 
