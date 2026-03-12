@@ -6,7 +6,7 @@ Building and deploying full-stack applications with modern JavaScript ecosystems
 Open to remote full-stack developer opportunities.
 ________________________________________
 🔭  What I’m Working On
-• Migrated MERN applications from MongoDB → PostgreSQL using Prisma ORM
+• Migrated Ecommerce MERN application from MongoDB → PostgreSQL using Prisma ORM
 • Converting projects to TypeScript + Next.js for stronger type safety
 • Exploring GraphQL APIs for scalable analytics systems
 • Enhancing AI dashboards with real-time analytics
