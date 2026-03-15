@@ -1,7 +1,7 @@
-👋 Hi, I'm Joshua Kipamet.
+👋 Hi, I'm Joshua Kipamet
 
-Full-stack developer building scalable SaaS, AI-powered tools, and production-grade e-commerce platforms using MERN, TypeScript, and Next.js.
-Focused on clean architecture, performance optimization, and real-world deployment. 
+Full-stack developer specializing in scalable SaaS platforms, AI-powered tools, and production-grade e-commerce systems using Next.js, TypeScript, Node.js, and PostgreSQL.
+I focus on clean architecture, performance optimization, and deploying real-world applications.
 Building and deploying full-stack applications with modern JavaScript ecosystems.
 Open to remote full-stack developer opportunities.
 ________________________________________
