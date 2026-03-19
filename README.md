@@ -1,79 +1,149 @@
-👋 Hi, I'm Joshua Kipamet
+# 👋 Hi, I'm Joshua Kipamet
 
-Full-stack developer specializing in scalable SaaS platforms, AI-powered tools, and production-grade e-commerce systems using Next.js, TypeScript, Node.js, and PostgreSQL.
-I focus on clean architecture, performance optimization, and deploying real-world applications.
-Building and deploying full-stack applications with modern JavaScript ecosystems.
-Open to remote full-stack developer opportunities.
-________________________________________
-🔭  What I’m Working On
-• Migrated Ecommerce MERN application from MongoDB → PostgreSQL using Prisma ORM
-• Converting projects to TypeScript + Next.js for stronger type safety
-• Exploring GraphQL APIs for scalable analytics systems
-• Enhancing AI dashboards with real-time analytics
-________________________________________
-💻 Tech Stack
+🚀 **Full-Stack Developer | Next.js • TypeScript • Node.js • PostgreSQL**
 
-Frontend:
-React, Next.js, Tailwind CSS, TypeScript
+I build **production-grade web applications** with a focus on scalability, clean architecture, and real-world problem solving.
 
-Backend:
-Node.js, Express.js
-
-Databases & ORM:
-PostgreSQL, MongoDB, Prisma, Data Modeling, Schema Design
-
-APIs:
-REST APIs, GraphQL
-
-DevOps & Deployment:
-Vercel, Render, Railway, CI/CD
-________________________________________
-🚀 Projects
-
-Analytics Dashboard  
-Full-stack analytics dashboard for tracking application metrics
-and visualizing real-time data using interactive charts.
-
-Tech: React, Node.js, TypeScript, MongoDB, Chart.js  
-Live Demo: https://dashboard-mern-tau.vercel.app/
+* 🧠 Strong in **system design & data modeling**
+* 🔄 Experienced in **migrating systems (MongoDB → PostgreSQL with Prisma)**
+* ⚡ Focused on **performance, maintainability, and modern best practices**
+* 🌍 Open to **remote full-stack opportunities**
 
 ---
 
-E-commerce Platform  
-Production-ready full-stack e-commerce platform with authentication,
-admin product management, cart & checkout flow, and payment integration.
+## 🔥 What I Bring
 
-Recently migrated the database from MongoDB → PostgreSQL using Prisma.
-
-Tech: React, Node.js, PostgreSQL, Prisma, Stripe  
-Live Demo: https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
+* Built and deployed **4+ full-stack applications** with real-world features
+* Designed **secure authentication systems, payment flows, and admin dashboards**
+* Migrated databases from **NoSQL → SQL** to improve scalability and structure
+* Transitioned projects to **TypeScript + Next.js** for better reliability
+* Consistently shipping code with **clean GitHub activity**
 
 ---
 
-AI Tool Collection  
-Collection of AI-powered utilities built using external AI APIs.
+## 🧱 Tech Stack
 
-Tools:
-• AI Text-to-Image Generator  
-Live Demo: https://ai-text-to-image-six.vercel.app
+**Frontend**
 
-• Background Remover App  
-Live Demo: https://bg-remover-xi-brown.vercel.app
+* React, Next.js
+* TypeScript
+* Tailwind CSS
 
-Tech: React, Node.js, ClipDrop
+**Backend**
 
-________________________________________
-🌱 Learning
-•	Advanced TypeScript patterns & utilities
-•	Modern Next.js features (Server Actions, API Routes, Middleware)
-•	GraphQL for analytics & e-commerce systems
-•	CI/CD pipelines for automated deployments
-________________________________________
-📫 How to Reach Me
-•	LinkedIn: https://www.linkedin.com/in/joshua-kipamet-148698140/?isSelfProfile=true
-•	GitHub: https://github.com/joshu1024
-•	Email: joshuakipamet@gmail.com
-________________________________________
-⚡ Fun Fact
-I love turning ideas into deployed apps — from AI dashboards to full-stack e-commerce systems — and learning every tool that makes code cleaner, faster, and scalable.
+* Node.js, Express.js
 
+**Database & ORM**
+
+* PostgreSQL, MongoDB
+* Prisma ORM
+* Schema Design & Data Modeling
+
+**APIs**
+
+* REST APIs
+* GraphQL (learning & applying)
+
+**DevOps & Deployment**
+
+* Vercel, Render, Railway
+* CI/CD basics
+
+---
+
+## 🚀 Featured Projects
+
+### 📊 Analytics Dashboard
+
+A full-stack analytics platform for tracking and visualizing application data in real time.
+
+**Key Highlights**
+
+* Interactive data visualization with charts
+* Structured state management with TypeScript
+* Designed for scalability and clean data flow
+
+**Tech Stack**
+React • Node.js • TypeScript • MongoDB • Chart.js
+
+🔗 Live Demo
+https://dashboard-mern-tau.vercel.app/
+
+---
+
+### 🛒 E-Commerce Platform (Flagship Project)
+
+A **production-ready full-stack e-commerce system** with complete business logic and payment integration.
+
+**Key Highlights**
+
+* Secure authentication & authorization
+* Admin product management system
+* Cart, checkout, and payment integration (Stripe)
+* 🔄 Migrated database from **MongoDB → PostgreSQL using Prisma**
+* Improved data consistency with relational modeling
+
+**Tech Stack**
+React • Node.js • PostgreSQL • Prisma • Stripe
+
+🔗 Live Demo
+https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
+
+---
+
+### 🤖 AI Tool Collection
+
+A set of AI-powered tools built using external APIs and full-stack integration.
+
+#### 🖼 AI Text-to-Image Generator
+
+* Converts text prompts into images using AI APIs
+  🔗 https://ai-text-to-image-six.vercel.app
+
+#### ✂️ Background Remover App
+
+* Automatically removes image backgrounds with AI
+  🔗 https://bg-remover-xi-brown.vercel.app
+
+**Tech Stack**
+React • Node.js • AI APIs (ClipDrop)
+
+---
+
+## 🔄 Currently Building
+
+* ⚡ Rebuilding my e-commerce platform using **Next.js (App Router)**
+* 🧩 Implementing **Server Actions & modern backend patterns**
+* 🗄 Fully integrating **PostgreSQL + Prisma**
+* 📈 Exploring **GraphQL for scalable analytics systems**
+* 🔧 Strengthening **TypeScript advanced patterns**
+
+---
+
+## 🧠 Engineering Focus
+
+I care about:
+
+* Writing **clean, maintainable code**
+* Designing **scalable backend systems**
+* Making **thoughtful tech decisions (not just using trends)**
+* Turning ideas into **fully deployed, real-world applications**
+
+---
+
+## 📫 Let's Connect
+
+* 💼 LinkedIn
+  https://www.linkedin.com/in/joshua-kipamet-148698140/
+
+* 💻 GitHub
+  https://github.com/joshu1024
+
+* 📧 Email
+  [joshuakipamet@gmail.com](mailto:joshuakipamet@gmail.com)
+
+---
+
+## ⚡ Fun Fact
+
+I enjoy taking ideas from **concept → architecture → deployed product**, whether it's an analytics dashboard, AI tool, or full e-commerce system.
