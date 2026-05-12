@@ -26,7 +26,6 @@ I specialize in building modern full-stack applications with a strong focus on *
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
 ![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens)
 
 ### Database & ORM
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
@@ -41,26 +40,6 @@ I specialize in building modern full-stack applications with a strong focus on *
 ---
 
 # 🚀 Featured Projects
-
----
-
-## 🛒 E-Commerce Platform
-Production-ready full-stack ecommerce platform featuring secure authentication, payments, admin workflows, and relational database architecture.
-
-### Highlights
-✔ Designed PostgreSQL + Prisma relational schema  
-✔ Migrated app from MongoDB → PostgreSQL  
-✔ Implemented secure JWT authentication  
-✔ Integrated PayPal payment workflows  
-✔ Refactored backend for scalability  
-
-**Stack:** React • Node.js • PostgreSQL • Prisma • Redux Toolkit
-
-🔗 Live Demo:  
-https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
-
-💻 Repo:  
-https://github.com/joshu1024/mern-ecommerce
 
 ---
 
@@ -84,10 +63,30 @@ https://github.com/joshu1024/Analytics-Dashboard---MERN
 
 ---
 
+## 🛒 E-Commerce Platform
+Production-ready full-stack ecommerce platform featuring secure authentication, payments, admin workflows, and relational database architecture.
+
+### Highlights
+✔ Designed PostgreSQL + Prisma relational schema  
+✔ Migrated app from MongoDB → PostgreSQL  
+✔ Implemented secure JWT authentication  
+✔ Integrated PayPal payment workflows  
+✔ Refactored backend for scalability  
+
+**Stack:** React • Node.js • PostgreSQL • Prisma • Redux Toolkit
+
+🔗 Live Demo:  
+https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
+
+💻 Repo:  
+https://github.com/joshu1024/mern-ecommerce
+
+---
+
 ## 🤖 AI Tool Collection
 
 ### 🖼 AI Text-to-Image Generator
-Built AI-powered image generation workflows using external inference APIs.
+Integrated external AI inference APIs with asynchronous image generation workflows and optimized frontend request handling.
 
 🔗 Demo: https://ai-text-to-image-six.vercel.app  
 💻 Repo: https://github.com/joshu1024/AI-Text-to-Image-
@@ -95,7 +94,7 @@ Built AI-powered image generation workflows using external inference APIs.
 ---
 
 ### ✂️ Background Remover App
-AI-powered automated image processing and optimized upload workflows.
+Implemented AI-powered image processing workflows with optimized upload handling and real-time preview systems.
 
 🔗 Demo: https://bg-remover-xi-brown.vercel.app  
 💻 Repo: https://github.com/joshu1024/bg-remover
@@ -107,9 +106,9 @@ AI-powered automated image processing and optimized upload workflows.
 - Built and deployed multiple production-ready full-stack applications
 - Designed scalable relational schemas with PostgreSQL + Prisma
 - Optimized database queries and frontend rendering performance
-- Built analytics systems handling large-scale datasets
+- Developed analytics systems handling large-scale datasets and aggregation workflows
 - Developed secure auth, admin workflows, and payment systems
-- Strong focus on scalable backend architecture
+- Focused on scalable backend architecture and maintainable TypeScript systems
 
 ---
 
