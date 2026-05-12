@@ -1,193 +1,134 @@
 # 👋 Hi, I'm Joshua Kipamet
 
-🚀 Full-Stack Engineer focused on building scalable SaaS platforms, analytics systems, and modern web applications.
+### Full-Stack Engineer building scalable SaaS platforms, analytics systems, and production-grade TypeScript applications.
 
-I build modern full-stack systems using Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and React, with a strong focus on backend architecture, database design, scalability, and performance optimization.
+I specialize in building modern full-stack applications with a strong focus on **backend architecture**, **database design**, **performance optimization**, and **scalable systems**.
 
-I enjoy solving backend-heavy engineering problems involving APIs, databases, analytics workflows, authentication systems, and scalable application architecture. Most of my recent work has focused on production-ready TypeScript applications and relational database systems.
+**Core focus areas:**
+- Type-safe full-stack systems
+- Scalable backend workflows
+- Relational database design
+- Analytics pipelines & dashboards
+- Clean API architecture
+- Performance-focused frontend systems
 
 ---
 
-# ⚙️ Engineering Philosophy
+## 🛠 Tech Stack
 
-I enjoy building systems that remain maintainable as they scale:
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss)
 
-- Type-safe full-stack architectures
-- Relational database modeling
-- Clean API design
-- Performance-conscious frontend systems
-- Scalable backend workflows
-- Maintainable TypeScript codebases
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens)
+
+### Database & ORM
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma)
+
+### Deployment
+![Vercel](https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge)
 
 ---
 
 # 🚀 Featured Projects
 
-## 🛒 E-Commerce Platform
+---
 
-Production-ready full-stack ecommerce platform featuring authentication, PayPal payments, admin workflows, and PostgreSQL relational architecture.
+## 🛒 E-Commerce Platform
+Production-ready full-stack ecommerce platform featuring secure authentication, payments, admin workflows, and relational database architecture.
 
 ### Highlights
+✔ Designed PostgreSQL + Prisma relational schema  
+✔ Migrated app from MongoDB → PostgreSQL  
+✔ Implemented secure JWT authentication  
+✔ Integrated PayPal payment workflows  
+✔ Refactored backend for scalability  
 
-- Designed relational database architecture using PostgreSQL + Prisma
-- Migrated application from MongoDB → PostgreSQL
-- Implemented secure JWT authentication and protected admin routes
-- Integrated PayPal payment processing
-- Refactored backend architecture for improved scalability and maintainability
-- Optimized API workflows and frontend state management
+**Stack:** React • Node.js • PostgreSQL • Prisma • Redux Toolkit
 
-### Tech Stack
-
-React • Node.js • PostgreSQL • Prisma • Redux Toolkit • PayPal
-
-### Links
-
-🔗 Live Demo  
+🔗 Live Demo:  
 https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
 
-💻 GitHub Repository  
+💻 Repo:  
 https://github.com/joshu1024/mern-ecommerce
 
 ---
 
-## 📊 Analytics Dashboard Platform
-
-Role-based analytics dashboard built with TypeScript across the full stack.
+## 📊 Analytics Dashboard
+Role-based analytics platform built with TypeScript across the full stack.
 
 ### Highlights
+✔ Processed 50K+ records using MongoDB aggregation  
+✔ Reduced dashboard load times by ~40%  
+✔ Built RBAC authorization system  
+✔ Managed 20+ React components and 10+ Redux slices  
+✔ Created advanced analytics visualizations  
 
-- Processed analytics across 50K+ records
-- Engineered analytics pipelines using MongoDB aggregation
-- Reduced dashboard load times by ~40% through:
-  - Query optimization
-  - Pagination
-  - Optimized rendering patterns
-- Managed 10+ Redux slices and 20+ React components
-- Developed multiple analytics visualizations using Recharts
+**Stack:** React • TypeScript • Node.js • MongoDB • Recharts
 
-### Architecture Focus
-
-- RBAC authorization system
-- Type-safe frontend/backend contracts
-- Centralized Redux Toolkit state management
-- REST API architecture with protected routes
-
-### Tech Stack
-
-React • Node.js • TypeScript • MongoDB • Recharts
-
-### Links
-
-🔗 Live Demo  
+🔗 Live Demo:  
 https://dashboard-mern-tau.vercel.app/
 
-💻 GitHub Repository  
+💻 Repo:  
 https://github.com/joshu1024/Analytics-Dashboard---MERN
 
 ---
 
 ## 🤖 AI Tool Collection
 
-AI-powered applications built with external APIs and full-stack integrations.
-
 ### 🖼 AI Text-to-Image Generator
+Built AI-powered image generation workflows using external inference APIs.
 
-- Integrated external AI inference APIs for image generation workflows
-- Implemented asynchronous request handling and image delivery systems
-- Built responsive frontend architecture for prompt-based generation
-
-🔗 Live Demo  
-https://ai-text-to-image-six.vercel.app
-
-💻 GitHub Repository  
-https://github.com/joshu1024/AI-Text-to-Image-
+🔗 Demo: https://ai-text-to-image-six.vercel.app  
+💻 Repo: https://github.com/joshu1024/AI-Text-to-Image-
 
 ---
 
 ### ✂️ Background Remover App
+AI-powered automated image processing and optimized upload workflows.
 
-- Developed AI-powered image processing workflows
-- Integrated external APIs for automated background removal
-- Built optimized file upload and image preview handling
-
-🔗 Live Demo  
-https://bg-remover-xi-brown.vercel.app
-
-💻 GitHub Repository 
-https://github.com/joshu1024/bg-remover
-
-### Tech Stack
-
-React • Node.js • Express.js • AI APIs
+🔗 Demo: https://bg-remover-xi-brown.vercel.app  
+💻 Repo: https://github.com/joshu1024/bg-remover
 
 ---
 
 # 🧠 Engineering Highlights
 
 - Built and deployed multiple production-ready full-stack applications
-- Designed relational schemas using PostgreSQL + Prisma ORM
-- Improved application performance through optimized queries and rendering patterns
-- Developed analytics systems handling large datasets and aggregation pipelines
-- Experienced building authentication systems, dashboards, payments, and admin workflows
-- Focused on scalable backend architecture and maintainable TypeScript systems
+- Designed scalable relational schemas with PostgreSQL + Prisma
+- Optimized database queries and frontend rendering performance
+- Built analytics systems handling large-scale datasets
+- Developed secure auth, admin workflows, and payment systems
+- Strong focus on scalable backend architecture
 
 ---
 
-# 🧱 Core Tech Stack
-
-### Frontend
-
-- React
-- Next.js
-- TypeScript
-- Redux Toolkit
-- Tailwind CSS
-
-### Backend
-
-- Node.js
-- Express.js
-- REST APIs
-- JWT Authentication
-- RBAC Authorization
-
-### Database & ORM
-
-- PostgreSQL
-- MongoDB
-- Prisma ORM
-- Database Migrations
-- Aggregation Pipelines
-
-### DevOps & Deployment
-
-- Vercel
-- Render
-- Railway
-- CI/CD Basics
-
----
-
-# 🔄 Currently Exploring
+# 📈 Currently Exploring
 
 - Advanced TypeScript patterns
-- System design & scalable backend architecture
+- System design & distributed systems
 - GraphQL APIs
 - Next.js Server Actions
-- Redis caching & performance optimization
-- Docker fundamentals
+- Redis caching
+- Docker & containerization
 
 ---
 
-# 📈 Career Interests
+# 📊 GitHub Stats
 
-I'm particularly interested in:
+![Joshua's GitHub stats](https://github-readme-stats.vercel.app/api?username=joshu1024&show_icons=true&theme=tokyonight)
 
-- Backend-focused full-stack engineering
-- SaaS platforms
-- Analytics systems
-- Scalable application architecture
-- Remote engineering opportunities
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=joshu1024&layout=compact&theme=tokyonight)
 
 ---
 
@@ -205,3 +146,6 @@ https://github.com/joshu1024
 📧 Email  
 joshuakipamet@gmail.com
 
+---
+
+### Open to backend/full-stack engineering opportunities and collaborations 🚀
