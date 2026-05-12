@@ -1,16 +1,14 @@
-# 👋 Hi, I'm Joshua Kipamet
+👋 Hi, I'm Joshua Kipamet
 
-### Full-Stack Engineer building scalable SaaS platforms, analytics systems, and production-grade TypeScript applications.
+Full-Stack Engineer focused on scalable TypeScript applications, backend systems, analytics platforms, and relational database architecture.
 
-I specialize in building modern full-stack applications with a strong focus on **backend architecture**, **database design**, **performance optimization**, and **scalable systems**.
+I build production-ready applications using React, Node.js, PostgreSQL, Prisma, and modern cloud deployment platforms.
 
-**Core focus areas:**
-- Type-safe full-stack systems
-- Scalable backend workflows
+**Core focus areas:
+- Full-stack TypeScript systems
+- Backend architecture & APIs
 - Relational database design
-- Analytics pipelines & dashboards
-- Clean API architecture
-- Performance-focused frontend systems
+- Analytics dashboards & performance optimization
 
 ---
 
