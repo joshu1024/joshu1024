@@ -46,7 +46,7 @@ React • Node.js • PostgreSQL • Prisma • Redux Toolkit • PayPal
 https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
 
 💻 GitHub Repository  
-https://github.com/joshu1024
+[https://github.com/joshu1024](https://github.com/joshu1024/mern-ecommerce)
 
 ---
 
@@ -82,7 +82,7 @@ React • Node.js • TypeScript • MongoDB • Recharts
 https://dashboard-mern-tau.vercel.app/
 
 💻 GitHub Repository  
-https://github.com/joshu1024
+[https://github.com/joshu1024](https://github.com/joshu1024/Analytics-Dashboard---MERN)
 
 ---
 
@@ -99,6 +99,9 @@ AI-powered applications built with external APIs and full-stack integrations.
 🔗 Live Demo  
 https://ai-text-to-image-six.vercel.app
 
+💻 GitHub Repository  
+https://github.com/joshu1024/AI-Text-to-Image-
+
 ---
 
 ### ✂️ Background Remover App
@@ -109,6 +112,9 @@ https://ai-text-to-image-six.vercel.app
 
 🔗 Live Demo  
 https://bg-remover-xi-brown.vercel.app
+
+💻 GitHub Repository 
+https://github.com/joshu1024/bg-remover
 
 ### Tech Stack
 
@@ -187,6 +193,9 @@ I'm particularly interested in:
 
 # 📫 Connect With Me
 
+🌐 Portfolio  
+https://portfolio-4jxo-git-main-joes-projects-50075601.vercel.app/
+
 💼 LinkedIn  
 https://www.linkedin.com/in/joshua-kipamet-148698140/
 
@@ -196,5 +205,3 @@ https://github.com/joshu1024
 📧 Email  
 joshuakipamet@gmail.com
 
-🌐 Portfolio  
-https://portfolio-4jxo-git-main-joes-projects-50075601.vercel.app/
