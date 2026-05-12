@@ -1,89 +1,101 @@
 # 👋 Hi, I'm Joshua Kipamet
 
-🚀 **Full-Stack Developer | Next.js • TypeScript • Node.js • PostgreSQL**
+🚀 Full-Stack Engineer focused on building scalable SaaS platforms, analytics systems, and production-grade web applications.
 
-I build **production-grade web applications** with a focus on scalability, clean architecture, and real-world problem solving.
-
-* 🧠 Strong in **system design & data modeling**
-* 🔄 Experienced in **migrating systems (MongoDB → PostgreSQL with Prisma)**
-* ⚡ Focused on **performance, maintainability, and modern best practices**
-* 🌍 Open to **remote full-stack opportunities**
+I specialize in modern web technologies including **Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and React**, with a strong focus on backend architecture, performance optimization, and maintainable system design.
 
 ---
 
-## 🔥 What I Bring
+# 🧠 Engineering Focus
 
-* Built and deployed **4+ full-stack applications** with real-world features
-* Designed **secure authentication systems, payment flows, and admin dashboards**
-* Migrated databases from **NoSQL → SQL** to improve scalability and structure
-* Transitioned projects to **TypeScript + Next.js** for better reliability
-* Consistently shipping code with **clean GitHub activity**
+I enjoy solving real-world engineering problems through:
+
+* Scalable backend architecture
+* Relational database design
+* API development & optimization
+* Performance-focused frontend systems
+* Clean, maintainable TypeScript codebases
+* Full-stack product development from concept → deployment
 
 ---
 
-## 🧱 Tech Stack
+# 🔥 Engineering Highlights
 
-**Frontend**
+* Built and deployed multiple full-stack applications with authentication, payments, dashboards, and AI integrations
+* Migrated production applications from MongoDB → PostgreSQL using Prisma ORM and relational schema design
+* Improved application performance through query optimization, pagination, and optimized rendering patterns
+* Developed analytics systems processing 50K+ records using MongoDB aggregation pipelines
+* Consistently shipping production-ready projects with modern React/Next.js architecture
 
-* React, Next.js
+---
+
+# 🧱 Tech Stack
+
+## Frontend
+
+* React
+* Next.js
 * TypeScript
+* Redux Toolkit
 * Tailwind CSS
 
-**Backend**
+## Backend
 
-* Node.js, Express.js
-
-**Database & ORM**
-
-* PostgreSQL, MongoDB
-* Prisma ORM
-* Schema Design & Data Modeling
-
-**APIs**
-
+* Node.js
+* Express.js
 * REST APIs
-* GraphQL (learning & applying)
+* JWT Authentication
+* Role-Based Access Control (RBAC)
 
-**DevOps & Deployment**
+## Database & ORM
 
-* Vercel, Render, Railway
-* CI/CD basics
+* PostgreSQL
+* MongoDB
+* Prisma ORM
+* Database Migrations
+* Relational Schema Design
+* Aggregation Pipelines
+
+## DevOps & Deployment
+
+* Vercel
+* Render
+* Railway
+* CI/CD Basics
+* Environment Configuration
+
+## Currently Exploring
+
+* GraphQL
+* Advanced TypeScript Patterns
+* System Design
+* Server Actions (Next.js App Router)
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### 📊 Analytics Dashboard
+## 🛒 E-Commerce Platform (Flagship Project)
 
-A full-stack analytics platform for tracking and visualizing application data in real time.
+Production-grade full-stack e-commerce system with authentication, Stripe payments, admin management, and scalable relational database architecture.
 
-**Key Highlights**
+### Key Features
 
-* Interactive data visualization with charts
-* Structured state management with TypeScript
-* Designed for scalability and clean data flow
+* Secure JWT authentication & protected routes
+* Admin dashboard for managing products and orders
+* Stripe payment integration
+* PostgreSQL + Prisma relational schema design
+* Optimized backend architecture for scalability
 
-**Tech Stack**
-React • Node.js • TypeScript • MongoDB • Chart.js
+### Engineering Focus
 
-🔗 Live Demo
-https://dashboard-mern-tau.vercel.app/
+* Migrated from MongoDB → PostgreSQL
+* Redesigned database architecture using relational modeling
+* Improved maintainability and query structure
+* Refactored application for better scalability
 
----
+### Tech Stack
 
-### 🛒 E-Commerce Platform (Flagship Project)
-
-A **production-ready full-stack e-commerce system** with complete business logic and payment integration.
-
-**Key Highlights**
-
-* Secure authentication & authorization
-* Admin product management system
-* Cart, checkout, and payment integration (Stripe)
-* 🔄 Migrated database from **MongoDB → PostgreSQL using Prisma**
-* Improved data consistency with relational modeling
-
-**Tech Stack**
 React • Node.js • PostgreSQL • Prisma • Stripe
 
 🔗 Live Demo
@@ -91,59 +103,97 @@ https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
 
 ---
 
-### 🤖 AI Tool Collection
+## 📊 MERN Analytics Dashboard (TypeScript)
 
-A set of AI-powered tools built using external APIs and full-stack integration.
+Built a role-based analytics dashboard with secure JWT authentication using httpOnly cookies and TypeScript across the full stack.
 
-#### 🖼 AI Text-to-Image Generator
+### Key Highlights
 
-* Converts text prompts into images using AI APIs
-  🔗 https://ai-text-to-image-six.vercel.app
+* Migrated entire application to TypeScript
+* Managed 10+ Redux slices and 20+ React components
+* Built 5+ analytics visualizations using Recharts
+* Processed analytics across 50K+ records
+* Implemented MongoDB aggregation pipelines
+* Reduced dashboard load time by ~40% through:
 
-#### ✂️ Background Remover App
+  * query optimization
+  * server-side pagination
+  * optimistic UI updates
 
-* Automatically removes image backgrounds with AI
-  🔗 https://bg-remover-xi-brown.vercel.app
+### Architecture Highlights
 
-**Tech Stack**
-React • Node.js • AI APIs (ClipDrop)
+* Role-based authorization system
+* Centralized Redux Toolkit state management
+* REST API architecture with protected routes
+* Type-safe frontend/backend contracts
+* Analytics-focused backend query optimization
 
----
+### Tech Stack
 
-## 🔄 Currently Building
+React • Node.js • TypeScript • MongoDB • Recharts
 
-* ⚡ Rebuilding my e-commerce platform using **Next.js (App Router)**
-* 🧩 Implementing **Server Actions & modern backend patterns**
-* 🗄 Fully integrating **PostgreSQL + Prisma**
-* 📈 Exploring **GraphQL for scalable analytics systems**
-* 🔧 Strengthening **TypeScript advanced patterns**
-
----
-
-## 🧠 Engineering Focus
-
-I care about:
-
-* Writing **clean, maintainable code**
-* Designing **scalable backend systems**
-* Making **thoughtful tech decisions (not just using trends)**
-* Turning ideas into **fully deployed, real-world applications**
+🔗 Live Demo
+https://dashboard-mern-tau.vercel.app/
 
 ---
 
-## 📫 Let's Connect
+## 🤖 AI Tool Collection
 
-* 💼 LinkedIn
-  https://www.linkedin.com/in/joshua-kipamet-148698140/
+AI-powered tools built using external APIs and full-stack integrations.
 
-* 💻 GitHub
-  https://github.com/joshu1024
+### 🖼 AI Text-to-Image Generator
 
-* 📧 Email
-  [joshuakipamet@gmail.com](mailto:joshuakipamet@gmail.com)
+Converts text prompts into AI-generated images using external AI APIs.
+
+🔗 https://ai-text-to-image-six.vercel.app
+
+### ✂️ Background Remover App
+
+Removes image backgrounds using AI-powered image processing APIs.
+
+🔗 https://bg-remover-xi-brown.vercel.app
+
+### Tech Stack
+
+React • Node.js • AI APIs • Express.js
 
 ---
 
-## ⚡ Fun Fact
+# 🔄 Currently Building
 
-I enjoy taking ideas from **concept → architecture → deployed product**, whether it's an analytics dashboard, AI tool, or full e-commerce system.
+* Rebuilding my e-commerce platform using Next.js App Router
+* Implementing Server Actions & modern backend patterns
+* Expanding PostgreSQL + Prisma architecture
+* Exploring scalable GraphQL APIs
+* Strengthening advanced TypeScript patterns
+
+---
+
+# 📈 Career Direction
+
+I’m particularly interested in:
+
+* Backend-focused full-stack engineering
+* SaaS platforms
+* Analytics systems
+* Scalable application architecture
+* Remote engineering opportunities
+
+---
+
+# 📫 Connect With Me
+
+💼 LinkedIn
+https://www.linkedin.com/in/joshua-kipamet-148698140/
+
+💻 GitHub
+https://github.com/joshu1024
+
+📧 Email
+[joshuakipamet@gmail.com](mailto:joshuakipamet@gmail.com)
+
+---
+
+# ⚡ Fun Fact
+
+I enjoy taking products from idea → architecture → deployment, whether it's an analytics dashboard, AI-powered tool, or full-scale e-commerce platform.
