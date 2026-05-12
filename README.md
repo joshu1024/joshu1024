@@ -2,7 +2,9 @@
 
 🚀 Full-Stack Engineer focused on building scalable SaaS platforms, analytics systems, and modern web applications.
 
-I build modern full-stack systems using Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and React, with a strong focus on backend architecture, database design, and performance optimization.
+I build modern full-stack systems using Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and React, with a strong focus on backend architecture, database design, scalability, and performance optimization.
+
+I enjoy solving backend-heavy engineering problems involving APIs, databases, analytics workflows, authentication systems, and scalable application architecture. Most of my recent work has focused on production-ready TypeScript applications and relational database systems.
 
 ---
 
@@ -10,12 +12,12 @@ I build modern full-stack systems using Next.js, TypeScript, Node.js, PostgreSQL
 
 I enjoy building systems that remain maintainable as they scale:
 
-* Type-safe full-stack architectures
-* Relational database modeling
-* Clean API design
-* Performance-conscious frontend systems
-* Scalable backend workflows
-* Maintainable TypeScript codebases
+- Type-safe full-stack architectures
+- Relational database modeling
+- Clean API design
+- Performance-conscious frontend systems
+- Scalable backend workflows
+- Maintainable TypeScript codebases
 
 ---
 
@@ -23,54 +25,64 @@ I enjoy building systems that remain maintainable as they scale:
 
 ## 🛒 E-Commerce Platform
 
-Full-stack e-commerce platform with authentication, Paypal payments, admin workflows, and PostgreSQL relational architecture.
+Production-ready full-stack ecommerce platform featuring authentication, PayPal payments, admin workflows, and PostgreSQL relational architecture.
 
 ### Highlights
 
-* Designed relational database architecture using PostgreSQL + Prisma
-* Migrated application from MongoDB → PostgreSQL
-* Built secure JWT authentication and protected admin routes
-* Integrated Paypal payment processing
-* Refactored backend structure for improved scalability and maintainability
+- Designed relational database architecture using PostgreSQL + Prisma
+- Migrated application from MongoDB → PostgreSQL
+- Implemented secure JWT authentication and protected admin routes
+- Integrated PayPal payment processing
+- Refactored backend architecture for improved scalability and maintainability
+- Optimized API workflows and frontend state management
 
 ### Tech Stack
 
-React • Node.js • PostgreSQL • Prisma • Paypal
+React • Node.js • PostgreSQL • Prisma • Redux Toolkit • PayPal
 
-🔗 Live Demo
+### Links
+
+🔗 Live Demo  
 https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
+
+💻 GitHub Repository  
+https://github.com/joshu1024
 
 ---
 
-## 📊 MERN Analytics Dashboard
+## 📊 Analytics Dashboard Platform
 
 Role-based analytics dashboard built with TypeScript across the full stack.
 
 ### Highlights
 
-* Processed analytics across 50K+ records
-* Built analytics pipelines using MongoDB aggregation
-* Reduced dashboard load times by ~40% through:
-
-  * query optimization
-  * pagination
-  * optimized rendering patterns
-* Managed 10+ Redux slices and 20+ React components
-* Built multiple analytics visualizations using Recharts
+- Processed analytics across 50K+ records
+- Engineered analytics pipelines using MongoDB aggregation
+- Reduced dashboard load times by ~40% through:
+  - Query optimization
+  - Pagination
+  - Optimized rendering patterns
+- Managed 10+ Redux slices and 20+ React components
+- Developed multiple analytics visualizations using Recharts
 
 ### Architecture Focus
 
-* RBAC authorization system
-* Type-safe frontend/backend contracts
-* Centralized Redux Toolkit state management
-* REST API architecture with protected routes
+- RBAC authorization system
+- Type-safe frontend/backend contracts
+- Centralized Redux Toolkit state management
+- REST API architecture with protected routes
 
 ### Tech Stack
 
 React • Node.js • TypeScript • MongoDB • Recharts
 
-🔗 Live Demo
+### Links
+
+🔗 Live Demo  
 https://dashboard-mern-tau.vercel.app/
+
+💻 GitHub Repository  
+https://github.com/joshu1024
 
 ---
 
@@ -78,19 +90,25 @@ https://dashboard-mern-tau.vercel.app/
 
 AI-powered applications built with external APIs and full-stack integrations.
 
-### Projects
+### 🖼 AI Text-to-Image Generator
 
-#### 🖼 AI Text-to-Image Generator
+- Integrated external AI inference APIs for image generation workflows
+- Implemented asynchronous request handling and image delivery systems
+- Built responsive frontend architecture for prompt-based generation
 
-Converts text prompts into AI-generated images using AI APIs.
+🔗 Live Demo  
+https://ai-text-to-image-six.vercel.app
 
-🔗 https://ai-text-to-image-six.vercel.app
+---
 
-#### ✂️ Background Remover App
+### ✂️ Background Remover App
 
-Removes image backgrounds using AI-powered image processing APIs.
+- Developed AI-powered image processing workflows
+- Integrated external APIs for automated background removal
+- Built optimized file upload and image preview handling
 
-🔗 https://bg-remover-xi-brown.vercel.app
+🔗 Live Demo  
+https://bg-remover-xi-brown.vercel.app
 
 ### Tech Stack
 
@@ -100,81 +118,83 @@ React • Node.js • Express.js • AI APIs
 
 # 🧠 Engineering Highlights
 
-* Built and deployed multiple production-ready full-stack applications
-* Designed relational schemas using PostgreSQL + Prisma ORM
-* Improved application performance through optimized queries and rendering patterns
-* Developed analytics systems handling large datasets and aggregation pipelines
-* Experienced building authentication, dashboards, payments, and admin systems
+- Built and deployed multiple production-ready full-stack applications
+- Designed relational schemas using PostgreSQL + Prisma ORM
+- Improved application performance through optimized queries and rendering patterns
+- Developed analytics systems handling large datasets and aggregation pipelines
+- Experienced building authentication systems, dashboards, payments, and admin workflows
+- Focused on scalable backend architecture and maintainable TypeScript systems
 
 ---
 
-# 🧱 Tech Stack
+# 🧱 Core Tech Stack
 
 ### Frontend
 
-* React
-* Next.js
-* TypeScript
-* Redux Toolkit
-* Tailwind CSS
+- React
+- Next.js
+- TypeScript
+- Redux Toolkit
+- Tailwind CSS
 
 ### Backend
 
-* Node.js
-* Express.js
-* REST APIs
-* JWT Authentication
-* RBAC Authorization
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
+- RBAC Authorization
 
 ### Database & ORM
 
-* PostgreSQL
-* MongoDB
-* Prisma ORM
-* Database Migrations
-* Aggregation Pipelines
+- PostgreSQL
+- MongoDB
+- Prisma ORM
+- Database Migrations
+- Aggregation Pipelines
 
 ### DevOps & Deployment
 
-* Vercel
-* Render
-* Railway
-* CI/CD Basics
+- Vercel
+- Render
+- Railway
+- CI/CD Basics
 
 ---
 
 # 🔄 Currently Exploring
 
-* Advanced TypeScript patterns
-* System design & scalable backend architecture
-* GraphQL APIs
-* Next.js Server Actions
-* Caching & performance optimization
+- Advanced TypeScript patterns
+- System design & scalable backend architecture
+- GraphQL APIs
+- Next.js Server Actions
+- Redis caching & performance optimization
+- Docker fundamentals
 
 ---
 
 # 📈 Career Interests
 
-I’m particularly interested in:
+I'm particularly interested in:
 
-* Backend-focused full-stack engineering
-* SaaS platforms
-* Analytics systems
-* Scalable application architecture
-* Remote engineering opportunities
+- Backend-focused full-stack engineering
+- SaaS platforms
+- Analytics systems
+- Scalable application architecture
+- Remote engineering opportunities
 
 ---
 
 # 📫 Connect With Me
 
-💼 LinkedIn
+💼 LinkedIn  
 https://www.linkedin.com/in/joshua-kipamet-148698140/
 
-💻 GitHub
+💻 GitHub  
 https://github.com/joshu1024
 
-📧 Email
-joshuakipamet@gmail.com](mailto:joshuakipamet@gmail.com)
+📧 Email  
+joshuakipamet@gmail.com
 
-🌐 Portfolio 
+🌐 Portfolio  
 https://portfolio-4jxo-git-main-joes-projects-50075601.vercel.app/
