@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Joshua Kipamet
 
-🚀 Full-Stack Engineer focused on building scalable SaaS platforms, analytics systems, and production-ready web applications.
+🚀 Full-Stack Engineer focused on building scalable SaaS platforms, analytics systems, and modern web applications.
 
-I specialize in building modern web systems using **Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and React**, with a strong focus on backend architecture, database design, and performance optimization.
+I build modern full-stack systems using Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and React, with a strong focus on backend architecture, database design, and performance optimization.
 
 ---
 
@@ -145,11 +145,11 @@ React • Node.js • Express.js • AI APIs
 
 # 🔄 Currently Exploring
 
-* GraphQL
-* Advanced TypeScript Patterns
-* System Design
+* Advanced TypeScript patterns
+* System design & scalable backend architecture
+* GraphQL APIs
 * Next.js Server Actions
-* Scalable backend architecture
+* Caching & performance optimization
 
 ---
 
@@ -174,4 +174,7 @@ https://www.linkedin.com/in/joshua-kipamet-148698140/
 https://github.com/joshu1024
 
 📧 Email
-[joshuakipamet@gmail.com](mailto:joshuakipamet@gmail.com)
+joshuakipamet@gmail.com](mailto:joshuakipamet@gmail.com)
+
+🌐 Portfolio 
+https://portfolio-4jxo-git-main-joes-projects-50075601.vercel.app/
