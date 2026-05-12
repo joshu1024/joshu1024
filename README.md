@@ -23,19 +23,19 @@ I enjoy building systems that remain maintainable as they scale:
 
 ## 🛒 E-Commerce Platform
 
-Full-stack e-commerce platform with authentication, Stripe payments, admin workflows, and PostgreSQL relational architecture.
+Full-stack e-commerce platform with authentication, Paypal payments, admin workflows, and PostgreSQL relational architecture.
 
 ### Highlights
 
 * Designed relational database architecture using PostgreSQL + Prisma
 * Migrated application from MongoDB → PostgreSQL
 * Built secure JWT authentication and protected admin routes
-* Integrated Stripe payment processing
+* Integrated Paypal payment processing
 * Refactored backend structure for improved scalability and maintainability
 
 ### Tech Stack
 
-React • Node.js • PostgreSQL • Prisma • Stripe
+React • Node.js • PostgreSQL • Prisma • Paypal
 
 🔗 Live Demo
 https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/
