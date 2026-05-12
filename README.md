@@ -1,4 +1,4 @@
-👋 Hi, I'm Joshua Kipamet
+👋 Hi, I'm Joshua Kipamet 
 
 Full-Stack Engineer focused on scalable TypeScript applications, backend systems, analytics platforms, and relational database architecture.
 
