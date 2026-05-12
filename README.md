@@ -123,13 +123,6 @@ Implemented AI-powered image processing workflows with optimized upload handling
 
 ---
 
-# 📊 GitHub Stats
-![Joshua's GitHub stats](https://github-readme-stats.vercel.app/api?username=joshu1024&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=joshu1024&layout=compact&theme=tokyonight)
-
----
-
 # 📫 Connect With Me
 
 🌐 Portfolio  
