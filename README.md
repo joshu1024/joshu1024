@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Joshua Kipamet
+<h1 align="center">👋 Hi, I'm Joshua Kipamet</h1>
 
 Full-Stack Engineer building scalable TypeScript applications, backend systems, and analytics platforms with React, Node.js, PostgreSQL, and Prisma.
 
