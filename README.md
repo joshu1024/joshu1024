@@ -1,39 +1,17 @@
-👋 Hi, I'm Joshua Kipamet 
+👋 Hi, I'm Joshua Kipamet
 
-Full-Stack Engineer focused on scalable TypeScript applications, backend systems, analytics platforms, and relational database architecture.
-
-I build production-ready applications using React, Node.js, PostgreSQL, Prisma, and modern cloud deployment platforms.
-
-**Core focus areas:
-- Full-stack TypeScript systems
-- Backend architecture & APIs
-- Relational database design
-- Analytics dashboards & performance optimization
-
----
+Full-Stack Engineer building scalable TypeScript applications, backend systems, and analytics platforms with React, Node.js, PostgreSQL, and Prisma.
 
 ## 🛠 Tech Stack
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss)
+### Frontend:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react) ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss)
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+### Backend:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js) ![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
 
-### Database & ORM
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma)
+### Database & ORM:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma)
 
-### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge)
+### Deployment:** ![Vercel](https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel) ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge)
 
 ---
 
