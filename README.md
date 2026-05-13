@@ -2,6 +2,7 @@
 
 Full-Stack Engineer building scalable TypeScript applications, backend systems, and analytics platforms with React, Node.js, PostgreSQL, and Prisma.
 
+
 ## 🛠 Tech Stack
 
 <table>
@@ -89,7 +90,7 @@ https://github.com/joshu1024/mern-ecommerce
 
 ---
 
-## 🤖 AI Tool Collection
+## 🤖 AI-Powered Applications
 
 ### 🖼 AI Text-to-Image Generator
 Integrated external AI inference APIs with asynchronous image generation workflows and optimized frontend request handling.
