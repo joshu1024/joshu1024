@@ -55,8 +55,7 @@ Role-based analytics platform built with TypeScript across the full stack.
 ### Highlights
 ✔ Processed 50K+ records using MongoDB aggregation  
 ✔ Reduced dashboard load times by ~40%  
-✔ Built RBAC authorization system  
-✔ Managed 20+ React components and 10+ Redux slices  
+✔ Built RBAC authorization system 
 ✔ Created advanced analytics visualizations  
 
 **Stack:** React • TypeScript • Node.js • MongoDB • Recharts
