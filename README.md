@@ -2,6 +2,10 @@
 
 Full-Stack Engineer building scalable TypeScript applications, backend systems, and analytics platforms with React, Node.js, PostgreSQL, and Prisma.
 
+## Philosophy
+
+I enjoy building scalable systems with clean architecture, strong typing, and maintainable backend design. Most of my projects focus on performance, developer experience, and production-ready workflows.
+
 
 ## 🛠 Tech Stack
 
@@ -122,11 +126,11 @@ Implemented AI-powered image processing workflows with optimized upload handling
 # 📈 Currently Exploring
 
 - Advanced TypeScript patterns
-- System design & distributed systems
-- GraphQL APIs
+- Distributed systems patterns
+- GraphQL API design
 - Next.js Server Actions
-- Redis caching
-- Docker & containerization
+- Redis caching strategies
+- Dockerized deployment workflows
 
 ---
 
