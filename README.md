@@ -2,6 +2,8 @@
 
 Full-Stack Engineer building scalable TypeScript applications, backend systems, and analytics platforms with React, Node.js, PostgreSQL, and Prisma.
 
+### Open to backend/full-stack engineering opportunities and collaborations 🚀
+
 ## Philosophy
 
 I enjoy building scalable systems with clean architecture, strong typing, and maintainable backend design. Most of my projects focus on performance, developer experience, and production-ready workflows.
@@ -149,5 +151,3 @@ https://github.com/joshu1024
 joshuakipamet@gmail.com
 
 ---
-
-### Open to backend/full-stack engineering opportunities and collaborations 🚀
