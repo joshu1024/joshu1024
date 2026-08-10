@@ -16,7 +16,7 @@ I enjoy building scalable systems with clean architecture, strong typing, and ma
 <td><strong>Frontend</strong></td>
 <td>
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Svelte-000000?style=flat-square&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Svelte-000000?style=flat-square&logo=svelte&logoColor=orange" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
