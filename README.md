@@ -99,7 +99,7 @@ Production-ready full-stack ecommerce platform with an AI shopping assistant, se
 **Stack:** React • Node.js • PostgreSQL • Prisma • Redux Toolkit • Groq • Cohere • pgvector
 
 🔗 Live Demo:
-https://mern-ecommerce-26w1.vercel.app/login
+https://mern-ecommerce-26w1.vercel.app
 
 💻 Repo:
 https://github.com/joshu1024/mern-ecommerce
