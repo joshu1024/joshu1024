@@ -168,8 +168,7 @@ Implemented AI-powered image processing workflows with optimized upload handling
 # 📫 Connect With Me
 
 🌐 Portfolio
-portfolio-nine-jade-60.vercel.app
-
+[portfolio-nine-jade-60.vercel.app](https://portfolio-nine-jade-60.vercel.app/)
 💼 LinkedIn
 https://www.linkedin.com/in/joshua-kipamet-148698140/
 
