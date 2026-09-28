@@ -189,4 +189,56 @@ Production e-commerce app with AI features layered on top of a real PostgreSQL d
 
 **AI features:**
 - **Semantic search** — Cohere embeddings + pgvector. "Something for a teenager who likes running" returns relevant products by meaning, not keyword match. Retrieval-based — not the model learning or improving.
-- **Tool use** — AI calls `searchProducts` or `semanticSearchProducts`, receives real Prisma query results, streams the answer. All tool calls scoped by `userId` — AI
+- **Tool use** — AI calls `searchProducts` or `semanticSearchProducts`, receives real Prisma query results, streams the answer. All tool calls scoped by `userId` — AI cannot access another user's orders under any prompt.
+- **Security layer** — rate limiting, prompt injection pattern detection, output moderation scan before response reaches user, per-user token quota with monthly reset
+
+> 🎥 GIF: chat widget streaming a product search response — coming soon
+
+**Stack:** React · Node.js · Express · PostgreSQL · pgvector · Prisma · Groq · Cohere · Redux Toolkit · PayPal · Cloudinary
+
+🔗 [Live Demo](https://sneakerzone.vercel.app) · 💻 [GitHub](https://github.com/joshu1024/mern-ecommerce)
+
+---
+
+### 📊 SaaS Analytics Dashboard
+
+Role-based analytics platform — the project where I learned TypeScript by migrating a production MERN codebase.
+
+- Migrated 10+ Redux slices, 20+ React components, 15+ API endpoints to TypeScript
+- MongoDB aggregation pipelines over 50K+ records
+- ~40% load time reduction with server-side pagination
+- RBAC with JWT in httpOnly cookies — XSS token exposure eliminated
+
+**Stack:** React · TypeScript · Node.js · MongoDB · Recharts · Redux Toolkit
+
+🔗 [Live Demo](https://dashboard-mern-tau.vercel.app/) · 💻 [GitHub](https://github.com/joshu1024/Analytics-Dashboard---MERN)
+
+---
+
+## 🏗 Engineering Highlights
+
+- Debugged Groq SDK streaming failure — `delta` returned as `{}` for reasoning models. Identified root cause (SDK v1.5.0 incompatibility), switched to raw SSE fetch, documented the fix
+- Tests caught a real production bug — document slice `pending` reducers set `loading: false` instead of `true`. Would have shipped broken loading states without tests
+- Migrated live ecommerce database from MongoDB to PostgreSQL + Prisma without data loss
+- Tool calls scoped by `userId` in every Prisma query — AI cannot access another user's data even under adversarial prompting
+- 51 automated tests across two projects — unit tests + agent behavioral evals with LLM-as-judge
+
+---
+
+## 📈 Currently Building
+
+- 🔄 **Apply-AI** — autonomous job application agent (Phase 3)
+- 🔜 **Docker** — containerization for Apply-AI
+- 🔜 **Next.js** — App Router, server components, server actions
+- 🔜 **Phase 4** — LangSmith tracing, prompt versioning, cost optimization
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=joshu1024&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats"/>
+</p>
+
+<p align="center">
+  📍 Nairobi, Kenya — open to remote &nbsp;·&nbsp;
+  <a href="mailto:joshuakipamet@gmail.com">joshuakipamet@gmail.com</a>
+</p>
