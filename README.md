@@ -1,15 +1,12 @@
 <h1 align="center">👋 Hi, I'm Joshua Kipamet</h1>
 
 <p align="center">
-  <strong>Fullstack AI Engineer</strong> — building production AI systems with RAG pipelines, autonomous agents, and semantic search
+  <strong>Fullstack AI Engineer</strong> — building production RAG systems, autonomous agents, and semantic search
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/joshua-kipamet-148698140/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/joshu1024">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
   </a>
   <a href="https://portfolio-4jxo-git-main-joes-projects-50075601.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
@@ -17,22 +14,19 @@
   <a href="mailto:joshuakipamet@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-AI%20Fullstack%20%2F%20Backend%20Engineering%20Roles-1D9E75?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Open%20to-AI%20Fullstack%20%2F%20Backend%20Roles-1D9E75?style=flat-square"/>
 </p>
 
 ---
 
 ## 🧠 What I build
 
-I build production AI systems — not tutorials, not wrappers. Real deployed products with architectural decisions, automated tests, and CI/CD pipelines.
+Production AI systems — not tutorials, not wrappers. Deployed products with real architectural decisions, automated tests, and CI/CD pipelines.
 
 - **RAG pipelines** — HyDE, hybrid search (vector + BM25 + RRF), re-ranking, semantic caching
-- **Autonomous agents** — ReAct loops, tool registries, guardrails, trace logging, human-in-the-loop
+- **Autonomous agents** — ReAct loops, typed tool registries, guardrails, trace logging, human-in-the-loop
 - **Semantic search** — pgvector, Cohere embeddings, HNSW indexing, cosine similarity
-- **Streaming AI** — SSE, ReadableStream, TextDecoder, token-by-token rendering
+- **Streaming AI** — raw SSE fetch, ReadableStream, TextDecoder, token-by-token rendering
 - **Multi-tenant SaaS** — org-scoped data isolation, RBAC, per-user token quotas
 
 ---
@@ -56,7 +50,6 @@ I build production AI systems — not tutorials, not wrappers. Real deployed pro
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logoColor=white"/>
 </td>
 </tr>
 <tr>
@@ -91,126 +84,109 @@ I build production AI systems — not tutorials, not wrappers. Real deployed pro
 
 ---
 
+## 💡 Architectural Decisions
+
+Real decisions I made and debugged — not post-hoc justifications.
+
+| Decision | Chose | Rejected | Why |
+|----------|-------|----------|-----|
+| LLM inference | Groq | OpenAI | Free tier, fast inference, same API shape |
+| Embeddings | Cohere embed-english-v3 | OpenAI text-embedding-3 | Free tier, no credit card, 1024-dim vectors |
+| Vector store | pgvector | Pinecone | Already on PostgreSQL — no new service, no extra cost. HNSW handles current scale |
+| Streaming | Raw SSE fetch | Groq SDK | SDK v1.5.0 returned `delta: {}` for reasoning model chunks — switched to raw fetch which reads the stream directly and parses correctly |
+| Chunking | Recursive | Fixed-size | Fixed-size breaks sentences mid-thought. Recursive splits on `\n\n` → `\n` → `. ` → ` ` — preserves complete thoughts |
+| Multi-tenancy | Domain-based org grouping | Invite codes | Zero friction — same email domain auto-joins same org; public domains get isolated personal orgs |
+| Auth storage | Authorization header | httpOnly cookies | Agent background workers make stateless API calls — cookies don't work in that context |
+
+---
+
 ## 🚀 Featured Projects
 
 ---
 
 ### 🤖 Apply-AI — Autonomous Job Application Agent
-![Status](https://img.shields.io/badge/Status-In%20Progress-E6F1FB?style=flat-square&color=378ADD)
+![Status](https://img.shields.io/badge/Status-In%20Progress-378ADD?style=flat-square)
 
-Autonomous AI agent that researches companies, identifies skill gaps between a CV and job description, drafts tailored cover letters, generates likely interview questions, and produces a full application report — without human intervention at every step.
+Autonomous AI agent that researches companies, identifies skill gaps, drafts tailored cover letters, generates likely interview questions, and produces a full report — the model decides what to do next, not the code.
 
-**What makes it an agent, not a workflow:**
-- Model decides which tool to call next — no hardcoded step order
-- ReAct loop: reason → act → observe → repeat until `finish` or guardrail stops it
-- Guardrails in code: max 15 iterations, cost budget, repeated-call detection, Zod argument validation
-- Tool failures returned as observations — agent adapts, retries, or flags low confidence
-- `askUser` tool — agent can pause mid-loop to ask the user a question
-- Full trace log — every thought, tool call, and observation saved to database
+**Agent vs workflow — the key distinction:**
+
+| Workflow (what tutorials build) | Agent (what I built) |
+|--------------------------------|---------------------|
+| Hardcoded step order | Model picks each next tool from a registry |
+| Fixed pipeline | ReAct loop: reason → act → observe → repeat |
+| No failure handling | Tool failures returned as observations — agent adapts |
+| One fixed checkpoint | `askUser` can pause the loop mid-execution |
+| No safety bounds | Guardrails in code: max 15 iters, cost cap, repeat-call detection |
+
+**Pipeline:**
+
+```mermaid
+flowchart TD
+    A[CV + job description] --> B[agent.service\nreason — pick next tool]
+    B --> C{guardrails\nmax 15 iters · cost cap\nrepeat-call check}
+    C -->|stop| G[generateReport]
+    C -->|continue| D[executeToolSafely\nZod validate · retry · backoff]
+    D --> E[Tool registry\nparseCV · research · gaps · draft · finish]
+    E -->|observation| B
+    E -->|askUser| F[pause — wait for user]
+    F -->|answer| B
+    E -->|finish| G
+    G --> H[save report + full trace to DB]
+    B -.->|every iteration| T[traceEvent SSE → live UI]
+```
 
 **Stack:** Node.js · TypeScript · PostgreSQL · Prisma · Groq · Cohere · BullMQ · WebSockets · Mastra · React · shadcn/ui
 
-🔗 Live Demo → coming soon  
-💻 [GitHub](https://github.com/joshu1024/apply-ai)
+💻 [GitHub](https://github.com/joshu1024/apply-ai) · 🔗 Live demo — coming soon
 
 ---
 
 ### 🧠 Enterprise AI Knowledge Base
 ![CI](https://github.com/joshu1024/Enterprise-ai-kb/actions/workflows/ci.yml/badge.svg)
 
-Production-ready multi-tenant RAG SaaS. Teams upload company documents and query them in natural language with streaming answers and inline source citations.
+Multi-tenant RAG SaaS. Teams upload company documents and query them in natural language with streaming answers and inline source citations.
 
-**Advanced RAG pipeline — not the tutorial version:**
-- HyDE — embed a hypothetical answer, not the raw question
-- Hybrid search — vector cosine + BM25 keyword, merged with Reciprocal Rank Fusion
-- Re-ranking — LLM scores top 10 chunks, returns best 5
-- Semantic caching — repeated queries (>0.92 similarity) cost zero API calls
-- Multi-tenant — single org per email domain, org-scoped data isolation
+**Basic RAG vs this implementation:**
 
-**51 automated tests · GitHub Actions CI · Deployed on Render + Vercel + Neon**
+| Tutorial RAG | This implementation |
+|-------------|---------------------|
+| Embed raw question | Embed hypothetical answer (HyDE) — questions and answers live in different vector spaces |
+| Vector search only | Vector + BM25 keyword, merged with Reciprocal Rank Fusion |
+| Return top-k directly | LLM re-ranks top 10, returns best 5 |
+| No caching | Semantic cache — repeated queries (>0.92 similarity) cost zero API calls |
+| Generic retrieval | Org-scoped — `WHERE organizationId = $1` on every query |
+
+**Pipeline:**
+
+```mermaid
+flowchart TD
+    A[User query] --> B{SemanticCache\nsimilarity > 0.92?}
+    B -->|hit| C[stream cached answer\nzero API cost]
+    B -->|miss| D[hydeQuery\ngenerate hypothetical answer]
+    D --> E[generateQueryEmbedding\nCohere search_query type]
+    E --> F[hybridSearch\nvector cosine + BM25 + RRF]
+    F --> G[rerankChunks\nLLM scores top 10 → 5]
+    G --> H[buildContext + citations\ninject into system prompt]
+    H --> I[Groq raw fetch\nstream tokens via SSE]
+    I --> J[setCachedAnswer\nwrite embedding to cache]
+    I --> K[recordTokenUsage\nincrement user quota]
+```
+
+> 🎥 GIF: streaming answer with inline `[Source 1]` citations loading token-by-token — coming soon
+
+**51 automated tests · GitHub Actions CI · Render + Vercel + Neon**
 
 **Stack:** Node.js · TypeScript · PostgreSQL · pgvector · Prisma · Neon · Cohere · Groq · React · shadcn/ui · Redux Toolkit
 
-🔗 [Live Demo](https://enterprise-ai-kb.vercel.app)  
-💻 [GitHub](https://github.com/joshu1024/Enterprise-ai-kb)
+🔗 [Live Demo](https://enterprise-ai-kb.vercel.app) · 💻 [GitHub](https://github.com/joshu1024/Enterprise-ai-kb)
 
 ---
 
 ### 👟 SneakerZone — E-Commerce + AI Shopping Assistant
 
-Production-ready e-commerce platform with an AI shopping assistant that uses tool calling to query real PostgreSQL data and stream results word by word.
+Production e-commerce app with AI features layered on top of a real PostgreSQL database.
 
-**AI layer:**
-- Semantic product search — Cohere embeddings + pgvector. "Something for a teenager who likes running" returns relevant results by meaning not keywords
-- Tool use / function calling — AI queries real database via Prisma, scoped by userId
-- Full AI security layer — rate limiting, prompt injection detection, output moderation, per-user token quotas
-- Streaming chat — SSE, ReadableStream, AbortController
-
-**Stack:** React · Node.js · Express · PostgreSQL · pgvector · Prisma · Groq · Cohere · Redux Toolkit · PayPal · Cloudinary
-
-🔗 [Live Demo](https://mern-ecommerce-26w1-git-main-joes-projects-50075601.vercel.app/)  
-💻 [GitHub](https://github.com/joshu1024/mern-ecommerce)
-
----
-
-### 📊 SaaS Analytics Dashboard
-
-Role-based analytics platform built with TypeScript across the full stack.
-
-- Migrated entire codebase to TypeScript — 10+ Redux slices, 20+ React components, 15+ API endpoints
-- MongoDB aggregation pipelines — real-time insights across 50K+ records
-- Reduced initial load time by ~40% with server-side pagination
-- RBAC authorization system — JWT with httpOnly cookies
-
-**Stack:** React · TypeScript · Node.js · MongoDB · Recharts · Redux Toolkit · Railway
-
-🔗 [Live Demo](https://dashboard-mern-tau.vercel.app/)  
-💻 [GitHub](https://github.com/joshu1024/Analytics-Dashboard---MERN)
-
----
-
-### 🖼 AI Text-to-Image Generator · ✂️ Background Remover
-
-Two AI-powered MERN apps — image generation and background removal using ClipDrop API with optimized request handling and real-time preview.
-
-🔗 [Text-to-Image](https://ai-text-to-image-six.vercel.app/) · [Background Remover](https://bg-remover-xi-brown.vercel.app/)  
-💻 [Text-to-Image Repo](https://github.com/joshu1024/AI-Text-to-Image-) · [Background Remover Repo](https://github.com/joshu1024/bg-remover)
-
----
-
-## 🏗 Engineering Highlights
-
-- Built production RAG SaaS with HyDE, hybrid search, re-ranking, semantic caching — not a tutorial
-- Building autonomous agent with ReAct loop, typed tool registry, guardrails, and full trace logging
-- 51 automated tests across backend and frontend — tests caught a real production bug (loading state never set to true)
-- GitHub Actions CI — all tests + build verified on every push
-- Migrated live ecommerce database from MongoDB to PostgreSQL without data loss
-- Debugged real library incompatibilities — Groq SDK streaming, pgvector dimension mismatch, ESM/CommonJS conflicts
-- Tool calls scoped by userId — AI can never access another user's data even under prompt manipulation
-
----
-
-## 📈 Currently Building
-
-- 🔄 **Apply-AI** — autonomous job application agent (Phase 3 of AI roadmap)
-- 🔜 **Docker** — containerization for Apply-AI
-- 🔜 **Next.js** — App Router, server components, server actions
-- 🔜 **Phase 4** — LangSmith tracing, prompt versioning, cost optimization
-
----
-
-## 📫 Connect
-
-<p>
-  🌐 <a href="https://portfolio-4jxo-git-main-joes-projects-50075601.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
-  💼 <a href="https://www.linkedin.com/in/joshua-kipamet-148698140/">LinkedIn</a> &nbsp;·&nbsp;
-  💻 <a href="https://github.com/joshu1024">GitHub</a> &nbsp;·&nbsp;
-  📧 <a href="mailto:joshuakipamet@gmail.com">joshuakipamet@gmail.com</a> &nbsp;·&nbsp;
-  📍 Nairobi, Kenya — open to remote
-</p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joshu1024&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats"/>
-</p>
+**AI features:**
+- **Semantic search** — Cohere embeddings + pgvector. "Something for a teenager who likes running" returns relevant products by meaning, not keyword match. Retrieval-based — not the model learning or improving.
+- **Tool use** — AI calls `searchProducts` or `semanticSearchProducts`, receives real Prisma query results, streams the answer. All tool calls scoped by `userId` — AI
