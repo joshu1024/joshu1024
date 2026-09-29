@@ -19,6 +19,7 @@
 ## 🚀 Featured Projects
 
 ### 🧠 Enterprise AI Knowledge Base
+![CI](https://github.com/joshu1024/Enterprise-ai-kb/actions/workflows/ci.yml/badge.svg)
 Multi-tenant RAG SaaS for querying company documents in natural language.
 
 `TypeScript` `Node.js` `PostgreSQL/pgvector` `Cohere` `Groq`
