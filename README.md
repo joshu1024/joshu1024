@@ -25,7 +25,7 @@ Multi-tenant RAG SaaS for querying company documents in natural language.
 
 `TypeScript` `Node.js` `PostgreSQL/pgvector` `Cohere` `Groq`
 
-Hybrid search · HyDE · RRF · LLM re-ranking · semantic caching · 51 tests · CI/CD
+Hybrid search · HyDE · RRF · LLM-based reranking · semantic caching · 51 tests · CI/CD
 
 🔗 [Live Demo](https://enterprise-ai-kb.vercel.app/) · 💻 [Repo](https://github.com/joshu1024/Enterprise-ai-kb)
 
