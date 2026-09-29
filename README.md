@@ -45,7 +45,7 @@ Full-stack ecommerce platform with an AI shopping assistant on top of a real pro
 
 Semantic search · tool use · streaming chat · PayPal · admin dashboard
 
-🔗 [Live Demo](mern-ecommerce-26w1.vercel.app/) · 💻 [Repo](https://github.com/joshu1024/Scalable-ecommerce-platform)
+🔗 [Live Demo](https://mern-ecommerce-26w1.vercel.app/) · 💻 [Repo](https://github.com/joshu1024/Scalable-ecommerce-platform)
 
 <details>
 <summary><b>Other projects</b></summary>
