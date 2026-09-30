@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Joshua Kipamet</h1>
 
 <p align="center">
-  <b>Junior AI Full-Stack Engineer</b> — self-directed builds in RAG pipelines, agentic workflows, and production-oriented TypeScript systems.
+  <b>Junior AI Full-Stack Engineer</b> building self-directed projects in RAG pipelines, agentic workflows, and production-oriented TypeScript systems.
 </p>
 
 <p align="center">
