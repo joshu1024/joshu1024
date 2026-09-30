@@ -77,5 +77,3 @@ Agentic AI, evaluation & observability, and production AI systems.
 ---
 
 ## 📫 Connect
-
-[LinkedIn](https://www.linkedin.com/in/joshua-kipamet-148698140/) · [Portfolio](https://portfolio-nine-jade-60.vercel.app) · [Email](mailto:joshuakipamet@gmail.com)
